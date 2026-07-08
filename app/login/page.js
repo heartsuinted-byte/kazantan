@@ -37,7 +37,7 @@ export default function LoginPage() {
         <div className="w-full max-w-md rounded-3xl border border-gray-100 bg-white p-8 shadow-card">
           <h1 className="font-display text-2xl font-bold">Welcome back</h1>
           <p className="mt-1 text-sm text-gray-500">
-            New to Krest?{" "}
+            New to First credit union?{" "}
             <Link href="/signup" className="font-semibold text-violet-600 hover:underline">
               Open an account
             </Link>

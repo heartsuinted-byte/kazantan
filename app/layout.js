@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Krest — The USD account that lives in your pocket",
+  title: "First credit union The USD account that lives in your pocket",
   description:
-    "Krest is a digital dollar bank. Open a USD account in minutes, get paid globally, and spend anywhere.",
+    "First credit union is a digital dollar bank. Open a USD account in minutes, get paid globally, and spend anywhere.",
 };
 
 export default function RootLayout({ children }) {

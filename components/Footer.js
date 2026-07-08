@@ -29,14 +29,14 @@ export default function Footer() {
         <div>
           <p className="font-display text-sm font-semibold">Support</p>
           <ul className="mt-4 space-y-2 text-sm text-gray-500">
-            <li>help@krest.bank</li>
+            <li>help@Firstcreditunion.bank</li>
             <li>+1 (555) 014-2026</li>
             <li>Mon–Sat, 8am–8pm</li>
           </ul>
         </div>
       </div>
       <div className="border-t border-gray-200/70 py-5 text-center text-xs text-gray-400">
-        © {new Date().getFullYear()} Krest Financial Inc.
+        © {new Date().getFullYear()} First credit union Bank Inc.
       </div>
     </footer>
   );

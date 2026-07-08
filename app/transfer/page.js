@@ -74,7 +74,7 @@ export default function TransferPage() {
 
   function confirmTransfer() {
     if (pin.join("") !== DEMO_PIN) {
-      setError("Incorrect PIN. Hint: the demo PIN is 1234.");
+      setError("Incorrect PIN. Hint: the PIN is 1234.");
       setPin(["", "", "", ""]);
       pinRefs[0].current?.focus();
       return;
@@ -393,7 +393,7 @@ export default function TransferPage() {
                     />
                   ))}
                 </div>
-                <p className="mt-3 text-xs text-gray-400">Demo PIN: 1234</p>
+                <p className="mt-3 text-xs text-gray-400"> PIN: 1234</p>
                 {error && (
                   <p className="mt-3 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-600">
                     {error}

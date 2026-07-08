@@ -60,9 +60,9 @@ export default function DashboardPage() {
         <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
           <Link href="/" className="flex items-center gap-2">
             <span className="grid h-8 w-8 place-items-center rounded-lg bg-violet-600 font-display font-bold text-white">
-              K
+              F
             </span>
-            <span className="font-display font-bold">Krest</span>
+            <span className="font-display font-bold">First credit union</span>
           </Link>
           <div className="flex items-center gap-3">
             <span className="hidden rounded-full bg-violet-50 px-3 py-1.5 text-xs font-semibold text-violet-700 sm:inline-flex">
@@ -122,7 +122,7 @@ export default function DashboardPage() {
           </div>
 
           <div className="rounded-3xl bg-violet-600 p-6 text-white shadow-lift">
-            <p className="text-sm text-violet-100">Krest virtual card</p>
+            <p className="text-sm text-violet-100">First credit union virtual card</p>
             <p className="mt-4 font-mono text-lg tracking-widest">
               4519 •••• •••• 8032
             </p>

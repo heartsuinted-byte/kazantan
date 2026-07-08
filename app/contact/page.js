@@ -34,7 +34,7 @@ export default function ContactPage() {
                 </span>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-sm text-gray-600">help@krest.bank</p>
+                  <p className="text-sm text-gray-600">help@Firstcreditunion.bank</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
