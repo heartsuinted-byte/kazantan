@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-gray-200/70 py-5 text-center text-xs text-gray-400">
-        © {new Date().getFullYear()} Krest Financial Inc. Demo project — not a real bank.
+        © {new Date().getFullYear()} Krest Financial Inc.
       </div>
     </footer>
   );

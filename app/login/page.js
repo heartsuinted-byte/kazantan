@@ -5,8 +5,8 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Navbar from "@/components/Navbar";
 
-const DEMO_EMAIL = "demo@krest.bank";
-const DEMO_PASSWORD = "demo1234";
+const DEMO_EMAIL = "sarahcoffer1@gmail.com";
+const DEMO_PASSWORD = "Sarah@0628";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -43,14 +43,14 @@ export default function LoginPage() {
             </Link>
           </p>
 
-          <div className="mt-6 rounded-xl border border-violet-100 bg-violet-25 p-4 text-sm">
+          {/* <div className="mt-6 rounded-xl border border-violet-100 bg-violet-25 p-4 text-sm">
             <p className="font-semibold text-violet-700">Demo login</p>
             <p className="mt-1 text-gray-600">
               Email: <span className="font-mono">demo@krest.bank</span>
               <br />
               Password: <span className="font-mono">demo1234</span>
             </p>
-          </div>
+          </div> */}
 
           <form onSubmit={handleSubmit} className="mt-6 space-y-4">
             <div>
@@ -59,7 +59,7 @@ export default function LoginPage() {
                 id="email"
                 type="email"
                 className="input"
-                placeholder="demo@krest.bank"
+                placeholder="johndoe@yahoo.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -71,7 +71,7 @@ export default function LoginPage() {
                 id="password"
                 type="password"
                 className="input"
-                placeholder="demo1234"
+                placeholder="abby34@"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
