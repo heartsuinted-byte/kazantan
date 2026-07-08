@@ -163,7 +163,7 @@ export default function DashboardPage() {
 
         {/* Transactions */}
         <section className="mt-10">
-          <div className="flex items-center justify-between">
+          {/* <div className="flex items-center justify-between">
             <h2 className="font-display text-lg font-bold">Transactions</h2>
             <button
               onClick={handleReset}
@@ -172,7 +172,7 @@ export default function DashboardPage() {
             >
               Reset demo data
             </button>
-          </div>
+          </div> */}
           <div className="mt-4 divide-y divide-gray-100 rounded-3xl bg-white shadow-card ring-1 ring-gray-100">
             {bank.transactions.map((t) => (
               <div key={t.id} className="flex items-center justify-between px-5 py-4">

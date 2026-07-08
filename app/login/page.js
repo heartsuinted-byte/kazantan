@@ -22,7 +22,7 @@ export default function LoginPage() {
       setLoading(true);
       localStorage.setItem(
         "krest_user",
-        JSON.stringify({ name: "Billy Adams", email: DEMO_EMAIL })
+        JSON.stringify({ name: "Sarah Coffer ", email: DEMO_EMAIL })
       );
       setTimeout(() => router.push("/dashboard"), 600);
     } else {
